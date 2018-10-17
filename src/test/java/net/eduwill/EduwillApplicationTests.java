@@ -20,8 +20,8 @@ public class EduwillApplicationTests {
 	public void PlayGameTest() {
 		//게임 참가자 수 설정(2~50)
 		Integer playerCount=2;
-		
-		service.game(playerCount);
+		System.out.println("가위바위보 게임시작 - 참가인원 : "+playerCount);
+		System.out.println(service.game(playerCount));
 	}
 
 }

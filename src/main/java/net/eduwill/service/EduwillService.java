@@ -29,6 +29,7 @@ public class EduwillService {
 			System.out.println("게임 결과 : "+result);
 		}
 		catch(FailureMessageException fe) {
+			System.out.println("진행중 Error 발생");
 			throw fe;
 		}
 		return "게임종료";
