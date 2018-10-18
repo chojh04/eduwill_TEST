@@ -17,8 +17,8 @@ public class EduwillApplicationTests {
 	
 	
 	@Test
-	public void PlayGameTest() {
-		//게임 참가자 수 설정(2~50)
+	public void PlayGameTest() throws Exception {
+		//게임 참가자 수 설정(2~10)
 		Integer playerCount=2;
 		System.out.println("가위바위보 게임시작 - 참가인원 : "+playerCount);
 		System.out.println(service.game(playerCount));
